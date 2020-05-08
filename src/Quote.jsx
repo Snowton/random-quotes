@@ -30,7 +30,7 @@ class Quote extends Component {
     }
     
     render() {
-        return <section>
+        return <section className="jumbotron">
         <h1>{this.state.quote}</h1>
         <h4>{this.state.author}</h4>
         </section>;
